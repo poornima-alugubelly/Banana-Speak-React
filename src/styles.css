@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: rgba(33, 52, 223, 0.938);
+  --yellow: yellow;
+  --width-break: 600px;
+}
+
+body {
+  margin: 0;
+  font-family: "Indie Flower", cursive;
+  color: var(--yellow);
+}
+
+nav {
+  background-color: var(--primary);
+  text-align: center;
+}
+
+nav div {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+main {
+  padding: 1rem;
+  display: float;
+  max-width: var(--width-break);
+  text-align: left;
+  margin: auto;
+}
+
+textarea {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  min-height: 20vh;
+  margin-top: 2rem;
+  font-size: large;
+  font-family: inherit;
+  padding: 0.5em 1em;
+  border-radius: 0.5rem;
+}
+
+button {
+  background-color: var(--primary);
+  border: none;
+  margin: 1rem 28rem 1rem 0rem;
+  padding: 1rem 2rem;
+  font-family: inherit;
+  font-size: large;
+  border-radius: 0.5rem;
+  color: var(--yellow);
+}
+
+#output {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 20vh;
+  max-height: 20vh;
+  overflow: scroll;
+  border: 1px solid var(--primary);
+  padding: 1rem;
+  font-size: large;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--primary);
+  text-align: center;
+}
+
+footer div {
+  font-size: x-large;
+}
+
+footer p {
+  max-width: var(--width-break);
+  margin: auto;
+}
+
+.output-txt {
+  color: var(--primary);
+}
