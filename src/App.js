@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./styles.css";
 
 export default function App() {
-  let serverURL = "https://api.funtranslations.com/translate/yoda.json";
+  let serverURL = "https://api.funtranslations.com/translate/minion.json";
   let [text, setText] = useState("");
   let [meaning, setMeaning] = useState("");
 
@@ -46,7 +46,7 @@ export default function App() {
         </button>
 
         <div className="output-txt">Translation will come here 👇</div>
-        <div id="output" class="output-txt"></div>
+        <div id="output" class="output-txt">{meaning}</div>
       </main>
       <footer>
         <div>about</div>
